@@ -1,3 +1,19 @@
+.ml20 {
+    margin-left: 40px;
+}
+
+.ml40 {
+    margin-left: 80px;
+}
+
+.mt40 {
+    margin-top: 20px;
+}
+
+.mt80 {
+    margin-top: 40px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +22,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: 'Spartan', sans-serif;
 }
 
 body {
@@ -22,27 +39,114 @@ body {
 }
 
 .section1 {
-    height: 400px;
+    padding-bottom: 90px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
-.section1__titulo {
-    width: 365px;
+.section1__izquierdo {
+    width: 50%;
     height: 145px;
     color: hsl(300, 43%, 22%);
 }
 
-.section1__subtitulo {
-    width: 420px;
-    height: 60px;
-    padding-top: 14px;
-    font-size: 15px;
-    line-height: 18px;
+.section1__titulo {
+    width: 300px;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: -2px;
+    padding-bottom: 10px;
+    font-size: 38px;
+}
+
+.section1__parrafo {
+    width: 380px;
+    font-size: 12px;
+    line-height: 1.4;
     color: hsl(303, 10%, 53%);
 }
 
-.section__contenidos {
-    padding-top: 145px;
+.section1__derecho {
+    width: 50%;
+    padding-top: 10px;
 }
+
+.section1__contenido {
+    width: 360px;
+    height: 30px;
+    background: hsl(300, 24%, 96%);
+    padding-top: 15px;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.section1__text {
+    color: hsl(300, 43%, 22%);
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+.section1__stars {
+    letter-spacing: 3px;
+}
+
+.section1__imagen {
+    width: 13px;
+    height: 13px;
+}
+
+
+.section2__profiles {
+    display: flex;
+}
+
+.section2__profile {
+    width: 300px;
+    margin-right: 25px;
+    border-radius: 10px;
+    background: hsl(300, 43%, 22%);
+    overflow: hidden;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+}
+
+.section2__foto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.section2__imagen {
+    display: flex;
+}
+
+.section2__caja-nombres {
+    padding-left: 30px;
+}
+
+.section2__nombre {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 6px;
+}
+
+.section2__subtitulo {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.section2__parrafo {
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    padding-top: 30px;
+    font-size: 11px;
+    line-height: 1.7;
+
+
+}
+
