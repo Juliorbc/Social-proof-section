@@ -7,11 +7,11 @@
 }
 
 .mt40 {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .mt80 {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 * {
@@ -29,11 +29,11 @@ body {
     background: hsl(0, 0%, 100%);
     background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
-    background-position: 100px 100px, -60px 0;
+    background-position: 100px 150px, -60px 0;
 }
 
 .contenedor {
-    padding-top: 130px;
+    padding-top: 100px;
     padding-left: 170px;
     padding-right: 170px;
 }
@@ -102,14 +102,15 @@ body {
 
 .section2__profiles {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: flex-start;
 }
 
 .section2__profile {
-    width: 300px;
-    margin-right: 25px;
+    width: 260px;
     border-radius: 10px;
     background: hsl(300, 43%, 22%);
-    overflow: hidden;
     padding-left: 35px;
     padding-top: 35px;
     padding-bottom: 30px;
@@ -146,6 +147,7 @@ body {
     padding-top: 30px;
     font-size: 11px;
     line-height: 1.7;
+    letter-spacing: 0.014em;
 
 
 }
