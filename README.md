@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](./imgages/screenshot_desktop.png)
+![screenshot](./images/screenshot_desktop.png)
 
 
 ## Built With
